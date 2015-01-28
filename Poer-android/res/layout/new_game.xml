@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:padding="5dp">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<ImageView
+				android:layout_height="100dp"
+				android:layout_width="match_parent"
+				android:src="@drawable/poer"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Poer"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="There is something you need to know: Poer is not human. In fact, he's probably as far from human as possible. Poer is from the planet Skager home of the Hea. But, Poer isn't even Hea; Poer is Aeh. Aeh is a rare mutated species that is 90% Hea and 10% unknown. Skager was raided by an unkown alien species. He escaped in a pod and landed somewhere between Earth and Skager. They are billions of miles apart, so he could be anywhere.\n\nI'm sorry, I believe introductions are in order. I'm the developer. You can call me Developer, Narrator, or whatever you want. So, what's your name?"
+			android:layout_width="wrap_content"
+			android:layout_margin="5dp"
+			android:textStyle="bold"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical|center_horizontal">
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:inputType="textPersonName"
+				android:ems="10"
+				android:layout_width="wrap_content"
+				android:id="@+id/name" />
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Go"
+				android:id="@+id/go_button"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>
+
